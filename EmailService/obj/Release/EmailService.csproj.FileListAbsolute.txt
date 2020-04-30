@@ -1,0 +1,8 @@
+C:\Users\baint\Downloads\MyMedsManager-master (1)\EmailService\bin\Release\Settings.job
+C:\Users\baint\Downloads\MyMedsManager-master (1)\EmailService\bin\Release\EmailService.exe.config
+C:\Users\baint\Downloads\MyMedsManager-master (1)\EmailService\bin\Release\EmailService.exe
+C:\Users\baint\Downloads\MyMedsManager-master (1)\EmailService\bin\Release\EmailService.pdb
+C:\Users\baint\Downloads\MyMedsManager-master (1)\EmailService\obj\Release\EmailService.csprojAssemblyReference.cache
+C:\Users\baint\Downloads\MyMedsManager-master (1)\EmailService\obj\Release\EmailService.csproj.CoreCompileInputs.cache
+C:\Users\baint\Downloads\MyMedsManager-master (1)\EmailService\obj\Release\EmailService.exe
+C:\Users\baint\Downloads\MyMedsManager-master (1)\EmailService\obj\Release\EmailService.pdb
