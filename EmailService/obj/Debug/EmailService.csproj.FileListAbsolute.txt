@@ -5,3 +5,11 @@ C:\Users\baint\Downloads\MyMedsManager-master (1)\EmailService\obj\Debug\EmailSe
 C:\Users\baint\Downloads\MyMedsManager-master (1)\EmailService\obj\Debug\EmailService.csproj.CoreCompileInputs.cache
 C:\Users\baint\Downloads\MyMedsManager-master (1)\EmailService\obj\Debug\EmailService.exe
 C:\Users\baint\Downloads\MyMedsManager-master (1)\EmailService\obj\Debug\EmailService.pdb
+C:\Git\MyMedsManager\EmailService\obj\Debug\EmailService.exe
+C:\Git\MyMedsManager\EmailService\obj\Debug\EmailService.pdb
+C:\Git\MyMedsManager\EmailService\bin\Debug\Settings.job
+C:\Git\MyMedsManager\EmailService\bin\Debug\EmailService.exe.config
+C:\Git\MyMedsManager\EmailService\bin\Debug\EmailService.exe
+C:\Git\MyMedsManager\EmailService\bin\Debug\EmailService.pdb
+C:\Git\MyMedsManager\EmailService\obj\Debug\EmailService.csprojAssemblyReference.cache
+C:\Git\MyMedsManager\EmailService\obj\Debug\EmailService.csproj.CoreCompileInputs.cache
