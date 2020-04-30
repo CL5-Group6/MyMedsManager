@@ -1,0 +1,60 @@
+﻿@model IEnumerable<MyMedsManager.Models.Medication>
+
+@{
+    ViewData["Title"] = "Medication List";
+}
+
+<h1>Medications</h1>
+
+<p>
+    <span style="font-size: 1.25em;">
+        <i class="fa fa-plus-circle fa-fw"></i>
+        <a asp-action="Create">Create New</a>
+    </span>
+</p>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Medicine)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MedQuantity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Dosage)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Notes)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Medicine)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MedQuantity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Dosage)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Notes)
+            </td>
+            <td>
+                <span style="font-size: 1.25em;">
+                <i class="fa fa-list fa-fw"></i>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <i class="fa fa-info-circle fa-fw"></i>
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <i class="fa fa-minus-circle fa-fw"></i>
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </span>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
