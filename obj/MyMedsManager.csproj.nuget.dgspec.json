@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\baint\\source\\repos\\MyMedsManager\\MyMedsManager.csproj": {}
+    "C:\\Git\\MyMedsManager\\MyMedsManager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\baint\\source\\repos\\MyMedsManager\\MyMedsManager.csproj": {
+    "C:\\Git\\MyMedsManager\\MyMedsManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\baint\\source\\repos\\MyMedsManager\\MyMedsManager.csproj",
+        "projectUniqueName": "C:\\Git\\MyMedsManager\\MyMedsManager.csproj",
         "projectName": "MyMedsManager",
-        "projectPath": "C:\\Users\\baint\\source\\repos\\MyMedsManager\\MyMedsManager.csproj",
+        "projectPath": "C:\\Git\\MyMedsManager\\MyMedsManager.csproj",
         "packagesPath": "C:\\Users\\baint\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\baint\\source\\repos\\MyMedsManager\\obj\\",
+        "outputPath": "C:\\Git\\MyMedsManager\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

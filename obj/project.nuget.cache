@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H8f60r3qpuov9WStR5+xCCkGsuH+ynyfnj07bK0Xn76L8mzNbzhLf3Y7qLqkw2MLEjIhFPIOj3QqRaiV1EDchw==",
+  "dgSpecHash": "RLICv5pxXIh+7ArhUvo6sZC/8JGUOP78C4WTF03t3Ycloy5LZ79aCpQdcdrLIbd6KBI1Y+y1mvYINZH34eRmUw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\baint\\source\\repos\\MyMedsManager\\MyMedsManager.csproj",
+  "projectFilePath": "C:\\Git\\MyMedsManager\\MyMedsManager.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\baint\\.nuget\\packages\\microsoft.aspnet.identity.core\\2.2.3\\microsoft.aspnet.identity.core.2.2.3.nupkg.sha512",
     "C:\\Users\\baint\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.3\\microsoft.aspnetcore.cryptography.internal.3.1.3.nupkg.sha512",
