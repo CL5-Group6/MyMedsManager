@@ -6,6 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Data\Migrations\20200404190415_Medication_UserId_FK.cs" />
+    <Compile Remove="Data\Migrations\20200404190415_Medication_UserId_FK.Designer.cs" />
+    <Compile Remove="Data\Migrations\20200509195639_Dropdown.cs" />
+    <Compile Remove="Data\Migrations\20200509195639_Dropdown.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNet.Identity.Core" Version="2.2.3" />
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.3" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.3" />
