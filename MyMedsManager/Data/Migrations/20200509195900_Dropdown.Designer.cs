@@ -10,8 +10,8 @@ using MyMedsManager.Data;
 namespace MyMedsManager.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20200404190415_Medication_UserId_FK")]
-    partial class Medication_UserId_FK
+    [Migration("20200509195900_Dropdown")]
+    partial class Dropdown
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -228,9 +228,11 @@ namespace MyMedsManager.Data.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("Dosage")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("DosageValue")
+                        .HasColumnType("int");
+
+                    b.Property<int>("FrequencyValue")
+                        .HasColumnType("int");
 
                     b.Property<int>("MedQuantity")
                         .HasColumnType("int");

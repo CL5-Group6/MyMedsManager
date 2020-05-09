@@ -21,9 +21,10 @@
                 <span asp-validation-for="MedQuantity" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Dosage" class="control-label"></label>
-                <input asp-for="Dosage" class="form-control" />
-                <span asp-validation-for="Dosage" class="text-danger"></span>
+                @Html.DropDownList("DosageValue", new SelectList(Enum.GetValues(typeof(Medication.Dosage))), "Select Dosage", new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                @Html.DropDownList("FrequencyValue", new SelectList(Enum.GetValues(typeof(Medication.Freq))), "Select Frequency", new { @class = "form-control" })
             </div>
             <div class="form-group">
                 <label asp-for="Notes" class="control-label"></label>

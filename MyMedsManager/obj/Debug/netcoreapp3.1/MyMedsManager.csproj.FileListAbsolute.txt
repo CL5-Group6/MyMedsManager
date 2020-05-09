@@ -448,3 +448,4 @@ C:\Git\MyMedsManager\MyMedsManager\obj\Debug\netcoreapp3.1\staticwebassets\MyMed
 C:\Git\MyMedsManager\MyMedsManager\obj\Debug\netcoreapp3.1\MyMedsManager.dll
 C:\Git\MyMedsManager\MyMedsManager\obj\Debug\netcoreapp3.1\MyMedsManager.pdb
 C:\Git\MyMedsManager\MyMedsManager\obj\Debug\netcoreapp3.1\MyMedsManager.genruntimeconfig.cache
+C:\Git\MyMedsManager\MyMedsManager\obj\Debug\netcoreapp3.1\MyMedsManager.csprojAssemblyReference.cache

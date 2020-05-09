@@ -226,9 +226,11 @@ namespace MyMedsManager.Data.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("Dosage")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("DosageValue")
+                        .HasColumnType("int");
+
+                    b.Property<int>("FrequencyValue")
+                        .HasColumnType("int");
 
                     b.Property<int>("MedQuantity")
                         .HasColumnType("int");

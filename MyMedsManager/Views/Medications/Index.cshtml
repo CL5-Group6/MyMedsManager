@@ -22,7 +22,10 @@
                 @Html.DisplayNameFor(model => model.MedQuantity)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Dosage)
+                @Html.DisplayNameFor(model => model.DosageValue)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FrequencyValue)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Notes)
@@ -39,19 +42,22 @@
                 @Html.DisplayFor(modelItem => item.MedQuantity)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Dosage)
+                @Html.DisplayFor(modelItem => item.DosageValue)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FrequencyValue)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Notes)
             </td>
             <td>
                 <span style="font-size: 1.25em;">
-                <i class="fa fa-list fa-fw"></i>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <i class="fa fa-info-circle fa-fw"></i>
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <i class="fa fa-minus-circle fa-fw"></i>
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    <i class="fa fa-list fa-fw"></i>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <i class="fa fa-info-circle fa-fw"></i>
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <i class="fa fa-minus-circle fa-fw"></i>
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
                 </span>
             </td>
         </tr>

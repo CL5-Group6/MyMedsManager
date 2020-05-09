@@ -19,7 +19,7 @@ namespace EmailService
 
                 List<String> emails = new List<String>();
 
-                var connectionString = @"Server=tcp:mysqlserver-steven.database.windows.net,1433;Initial Catalog=MyMedsManager;Persist Security Info=False;User ID=MyMedsManagerAzureLogin;Password=1231!#ASDF!a;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+                var connectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=MMMTestDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
 
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {

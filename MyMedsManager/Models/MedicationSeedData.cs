@@ -26,7 +26,8 @@ namespace MyMedsManager.Models
                     {
                         Medicine = "Medicine's Name Here",
                         MedQuantity = 0,
-                        Dosage = "Dosage ex: 1/day, 2/6hrs",
+                        DosageValue = 0,
+                        FrequencyValue = 0,
                         Notes = "Any additional info you would like here"
                     }
                 );

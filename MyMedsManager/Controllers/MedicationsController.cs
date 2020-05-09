@@ -65,7 +65,7 @@ namespace MyMedsManager.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         
-        public async Task<IActionResult> Create([Bind("Id,Medicine,MedQuantity,Dosage,Notes,UserId")] Medication medication)
+        public async Task<IActionResult> Create([Bind("Id,Medicine,MedQuantity,DosageValue,FrequencyValue,Notes,UserId")] Medication medication)
         {
             if (ModelState.IsValid)
             {
@@ -100,7 +100,7 @@ namespace MyMedsManager.Controllers
         
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Medicine,MedQuantity,Dosage,Notes")] Medication medication)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Medicine,MedQuantity,DosageValue,FrequencyValue,Notes,UserId")] Medication medication)
         {
             if (id != medication.Id)
             {
@@ -111,6 +111,7 @@ namespace MyMedsManager.Controllers
             {
                 try
                 {
+                    medication.UserId = User.Identity.GetUserId();
                     _context.Update(medication);
                     await _context.SaveChangesAsync();
                 }
